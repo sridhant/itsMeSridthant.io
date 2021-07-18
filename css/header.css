@@ -1,0 +1,157 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+header {
+  height: 100vh;
+  width: 100vw;
+  background: url(../assects/img/header/bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  display: block;
+  overflow: hidden;
+}
+
+header nav {
+  height: 10vh;
+}
+
+header nav .logo {
+  height: 100%;
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+header nav .logo img {
+  height: 40%;
+  width: 100%;
+  margin-left: -20%;
+}
+
+header .portfolio {
+  height: 90vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header .portfolio .text {
+  height: 85%;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: -3%;
+}
+
+header .portfolio .text h1 {
+  font-family: Anton;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 6rem;
+  line-height: 10rem;
+  text-align: center;
+  color: #1A1C20;
+}
+
+header .portfolio .text h3 {
+  font-family: Fredoka One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #1A1C20;
+}
+
+header .portfolio .text button {
+  height: 10%;
+  width: 20%;
+  background: #1A1C20;
+  margin-top: 2%;
+  border: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .portfolio .text button h2 {
+  font-family: Fredoka One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+  margin-top: 3%;
+}
+
+@media screen and (max-width: 800px) and (min-width: 200px) {
+  header {
+    height: 100vh;
+    width: 100vw;
+    background: url(../android/assects/img/header/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  header nav .logo {
+    margin-left: right;
+  }
+  header nav .logo img {
+    margin-left: 20%;
+  }
+  header .portfolio .text {
+    margin-bottom: auto;
+  }
+  header .portfolio .text h1 {
+    font-size: 4rem;
+  }
+  header .portfolio .text h3 {
+    font-size: 2rem;
+  }
+  header .portfolio .text button {
+    margin-top: 7%;
+    width: 60%;
+  }
+}
+/*# sourceMappingURL=header.css.map */

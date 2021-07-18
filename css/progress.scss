@@ -1,0 +1,594 @@
+.progressSection {
+  height: 140vh;
+  width: 100vw;
+  background-color: #f9f9f9;
+
+  .progress {
+    height: 140vh;
+    width: 100vw;
+    padding: 5% 5% 10% 5%;
+    background-color: #f9f9f9;
+
+    h1 {
+      font-family: Anton;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 3rem;
+      line-height: 4rem;
+      letter-spacing: 0.05em;
+      color: #121212;
+    }
+
+    h4 {
+      width: 80vh;
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1.5rem;
+      line-height: 3rem;
+      letter-spacing: 0.05em;
+      color: #3e3e3e;
+    }
+
+    .btnSection {
+      display: flex;
+      justify-content: flex-end;
+      align-self: center;
+      #btn1 {
+        margin: 1% 5%;
+        background-color: white;
+        width: 10%;
+        background: #1e1e1e;
+        border-radius: 1rem;
+        h3 {
+          font-family: Fredoka One;
+          font-style: normal;
+          font-weight: normal;
+          margin-top: 1%;
+          transform: translateY(5%);
+          color: #f9f9f9;
+          font-size: 1.5rem;
+        }
+      }
+
+      #btn2 {
+        margin: 1% 0%;
+        width: 20%;
+        border-radius: 1rem;
+        h3 {
+          font-family: Fredoka One;
+          font-style: normal;
+          font-weight: normal;
+          transform: translateY(5%);
+          font-size: 1.5rem;
+        }
+      }
+    }
+
+    .cards {
+      width: 100%;
+      height: 35%;
+      padding: 3% 0%;
+      display: flex;
+      justify-content: center;
+      align-self: center;
+
+      .card1 {
+        height: 100%;
+        width: 33.33%;
+        background: radial-gradient(
+          50% 50% at 50% 50%,
+          #803af2 0%,
+          #6405ff 100%
+        );
+        border-radius: 30px;
+        display: grid;
+        place-items: center;
+        margin-right: 3%;
+        box-shadow: 5px 8px 39px rgba(0, 0, 0, 0.57);
+        img {
+          height: 70%;
+          width: 70%;
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      }
+
+      .card2 {
+        height: 100%;
+        width: 33.33%;
+        background-color: green;
+        display: grid;
+        background: radial-gradient(
+          50% 50% at 50% 50%,
+          #00e29e 0%,
+          #02c04e 100%
+        );
+        border-radius: 30px;
+        place-items: center;
+        box-shadow: 5px 8px 39px rgba(0, 0, 0, 0.57);
+        img {
+          height: 50%;
+          width: 70%;
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      }
+
+      .card3 {
+        height: 100%;
+        width: 33.33%;
+        background-color: orangered;
+        display: grid;
+        place-items: center;
+        margin-left: 3%;
+        background: radial-gradient(
+          50% 50% at 50% 50%,
+          #ffaa29 0%,
+          #ff6b00 100%
+        );
+        border-radius: 30px;
+        box-shadow: 5px 8px 39px rgba(0, 0, 0, 0.57);
+        img {
+          height: 60%;
+          width: 70%;
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      }
+    }
+
+    .statistics {
+      height: 100%;
+      width: 100%;
+      padding: 5% 0% 0% 0%;
+      .graph {
+        height: 40%;
+        width: 100%;
+        background-color: green;
+        background: url(../assects/img/progress/graph.svg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        filter: drop-shadow(5px 32px 16px rgba(0, 0, 0, 0.28));
+      }
+    }
+
+    .progressRight {
+      height: 100%;
+      padding: 1%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 5%;
+      .flower {
+        height: 60%;
+        width: 60%;
+        margin-bottom: auto;
+        border-radius: 2rem;
+        background: url(../assects/img/progress/proBg.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+      .proTable {
+        height: 40%;
+        width: 90%;
+        margin-top: 10%;
+        border-radius: 1rem;
+        filter: drop-shadow(-1px 20px 32px rgba(0, 0, 0, 0.25));
+        .col1 {
+          height: 25%;
+          width: 100%;
+          background-color: white;
+          display: flex;
+          justify-content: flex-start;
+          align-self: center;
+          border-top-left-radius: 1rem;
+          border-top-right-radius: 1rem;
+          transition: 0.1s ease-in-out;
+          &:hover{
+            background-color: #3A3A3A;
+            h6{ color: white; }
+            p{ color: white; }
+          }
+          .indicator {
+            height: 60%;
+            width: 9%;
+            border-radius: 50%;
+            background-color: #6D55FF;
+            margin: auto 5%;
+          }
+          h6 {
+            font-family: Baloo Bhai;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 2rem;
+            color: #3A3A3A;
+            margin: auto 0%;
+          }
+          p{font-family: Poppins;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 1.5rem;
+            color: #3A3A3A;
+            margin: auto 5% auto auto ;
+          }
+        }
+        .col2 {
+          height: 25%;
+          width: 100%;
+          background-color: white;
+          display: flex;
+          justify-content: flex-start;
+          align-self: center;
+          transition: 0.1s ease-in-out;
+          &:hover{
+            background-color: #3A3A3A;
+            h6{ color: white; }
+            p{ color: white; }
+          }
+          .indicator {
+            height: 60%;
+            width: 9%;
+            border-radius: 50%;
+            background-color: #3840FF;
+            margin: auto 5%;
+          }
+          h6 {
+            font-family: Baloo Bhai;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 2rem;
+            color: #3A3A3A;
+            margin: auto 0%;
+          }
+          p{font-family: Poppins;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 1.5rem;
+            color: #3A3A3A;
+            margin: auto 5% auto auto ;
+          }
+        }
+        .col3 {
+          height: 25%;
+          width: 100%;
+          background-color: white;
+          display: flex;
+          justify-content: flex-start;
+          align-self: center;
+          transition: 0.1s ease-in-out;
+          &:hover{
+            background-color: #3A3A3A;
+            h6{ color: white; }
+            p{ color: white; }
+          }
+          .indicator {
+            height: 60%;
+            width: 9%;
+            border-radius: 50%;
+            background-color: #FF1FA5;
+            margin: auto 5%;
+          }
+          p{font-family: Poppins;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 1.5rem;
+            color: #3A3A3A;
+            margin: auto 5% auto auto ;
+          }
+          h6 {
+            font-family: Baloo Bhai;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 2rem;
+            color: #3A3A3A;
+            margin: auto 0%;
+          }
+        }
+        .col4 {
+          height: 25%;
+          width: 100%;
+          background-color: white;
+          display: flex;
+          justify-content: flex-start;
+          align-self: center;
+          border-bottom-left-radius: 1rem;
+          border-bottom-right-radius: 1rem;
+          transition: 0.1s ease-in-out;
+          &:hover{
+            background-color: #3A3A3A;
+            h6{ color: white; }
+            p{ color: white; }
+          }
+          .indicator {
+            height: 60%;
+            width: 9%;
+            border-radius: 50%;
+            background-color: #15FFC7;
+            margin: auto 5%;
+          }
+          h6 {
+            font-family: Baloo Bhai;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 2rem;
+            color: #3A3A3A;
+            margin: auto 0%;
+          }
+          p{font-family: Poppins;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 1.5rem;
+            color: #3A3A3A;
+            margin: auto 5% auto auto ;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width : 200px) and (max-width :800px){
+  .progressSection{
+    margin-top: 5%;
+    height: 280vh;
+    overflow: hidden;
+    .progress{
+      height: 280vh;
+      overflow: hidden;
+      .btnSection{
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        margin: 5% 0%;
+        #btn1{
+          width: 25%;
+        }
+        #btn2{
+         
+        }
+      }
+      .cards{
+        flex-direction: column;
+        height: 80%;
+        padding: 0% 5%;
+        .card1{
+          height: 30%;
+          width: 100%;
+          margin: auto auto;
+          img{
+            height: 50%;
+            width: 50%;
+          }
+        }
+        .card2{
+          height: 30%;
+          width: 100%;
+          margin: auto 0%;
+          img{
+            height: 40%;
+            width: 70%;
+          }
+        }
+
+        .card3{
+          height: 30%;
+          width: 100%;
+          margin: auto auto;
+          img{
+            height: 40%;
+            width: 70%;
+          }
+        }
+      }
+
+      .statistics{
+        height: 38%;
+        width: 100%;
+        h1{
+          height: 10%;
+          margin-top: 5%;
+          font-size: 2.5rem;
+        }
+        .graph{
+          height: 90%;
+          width: 100%;
+          transform: translateY(5%);
+          background: url(../android/assects/img/progress/graph.svg);
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          margin-top: auto;
+        }
+      }
+
+      .progressRight{
+        height: 18%;
+        width: 100%;
+        margin-top: auto;
+        position: relative;
+        top: 3%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20% 0%;
+
+        .flower{
+          display: none;
+        }
+        .proTable{
+          height: 90%;
+          width: 90%;
+          margin-top: 1%;
+          // margin-bottom: auto;
+
+          .col1{
+            .indicator{
+              height: 50%;
+              width: 7%;
+            }
+          }
+
+          .col2{
+            .indicator{
+              height: 50%;
+              width: 7%;
+            }
+          }
+
+          .col3{
+            .indicator{
+              height: 50%;
+              width: 7%;
+            }
+          }
+
+          .col4{
+            .indicator{
+              height: 50%;
+              width: 7%;
+            }
+          }
+
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-height : 740px) and (max-height :870px){
+  .progressSection{
+    height: 270vh;
+    overflow: hidden;
+    .progress{
+      height: 270vh;
+      overflow: hidden;
+      .btnSection{
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        margin: 5% 0%;
+        #btn1{
+          width: 25%;
+        }
+        #btn2{
+         
+        }
+      }
+      .cards{
+        flex-direction: column;
+        height: 80%;
+        padding: 0% 5%;
+        .card1{
+          height: 30%;
+          width: 100%;
+          margin: auto auto;
+          img{
+            height: 50%;
+            width: 50%;
+          }
+        }
+        .card2{
+          height: 30%;
+          width: 100%;
+          margin: auto 0%;
+          img{
+            height: 40%;
+            width: 70%;
+          }
+        }
+
+        .card3{
+          height: 30%;
+          width: 100%;
+          margin: auto auto;
+          img{
+            height: 40%;
+            width: 70%;
+          }
+        }
+      }
+
+      .statistics{
+        height: 50%;
+        width: 100%;
+        h1{
+          height: 10%;
+          margin-top: 5%;
+          font-size: 2.5rem;
+        }
+        .graph{
+          height: 90%;
+          width: 100%;
+          background: url(../android/assects/img/progress/graph.svg);
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          margin-top: auto;
+        }
+      }
+
+      .progressRight{
+        height: 20%;
+        width: 100%;
+        //margin-bottom: auto;
+        position: relative;
+        // background-color: blue;
+        top: 3%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        //padding: 0%;
+
+        .flower{
+          display: none;
+        }
+        .proTable{
+          height: 70%;
+          width: 90%;
+          margin-bottom: auto;
+          // margin-top: auto;
+
+          .col1{
+            .indicator{
+              height: 40%;
+              width: 7%;
+            }
+          }
+
+          .col2{
+            .indicator{
+              height: 40%;
+              width: 7%;
+            }
+          }
+
+          .col3{
+            .indicator{
+              height: 40%;
+              width: 7%;
+            }
+          }
+
+          .col4{
+            .indicator{
+              height: 40%;
+              width: 7%;
+            }
+          }
+
+        }
+      }
+    }
+  }
+}
+
+
